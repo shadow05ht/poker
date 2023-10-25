@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ramaraja', serif;
+    background-color: black;
+}
+
+.one {
+    line-height: 50px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: lime;
+    color: red;
+    text-align: center;
+}
+
+#oyun {
+    margin: auto;
+    margin-top: 100px;
+    color: red;
+    line-height: 400px;
+    width: 500px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: lime;
+    background-image: url(poker.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 100px;
+}
+
+.footer {
+    line-height: 50px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: lime;
+    color: red;
+    text-align: center;
+}
+
+::selection {
+    color: lime;
+    background-color: red;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    margin-top: 130px;
+}
