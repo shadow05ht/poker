@@ -13,20 +13,19 @@ body {
     top: 0;
     position: fixed;
     width: 100%;
-    background-color: lime;
-    color: red;
+    background-color: #dddbcb;
+    color: black;
     text-align: center;
 }
 
 #oyun {
     margin: auto;
     margin-top: 100px;
-    color: red;
-    line-height: 350px;
+    color: black;
+    line-height: 300px;
     width: 400px;
     text-align: center;
     border-radius: 30px;
-    background-color: lime;
     background-image: url(poker.jpg);
     background-size: cover;
     background-position: center;
@@ -40,14 +39,9 @@ body {
     bottom: 0;
     position: fixed;
     width: 100%;
-    background-color: lime;
-    color: red;
+    background-color: #dddbcb;
+    color: black;
     text-align: center;
-}
-
-::selection {
-    color: lime;
-    background-color: red;
 }
 
 p {
